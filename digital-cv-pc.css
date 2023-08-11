@@ -1,0 +1,157 @@
+* {
+    margin: 0px;
+box-sizing: border-box;
+}
+
+/*<!----------------------------------------------------------------!------------>*/
+/* CSS trang Digital-cv.html */
+
+.container-goa { grid-area: Goals; }
+.container-sco { grid-area: Scopes; }
+.container-tea { grid-area: Team; }
+.container-pri { grid-area: Primary; }
+.container-tim { grid-area: Timeline; }
+
+
+.digital-cv {
+    background-color: #1940db;
+    display: grid;
+    gap: 10px;
+    padding: 10px;
+
+    grid-template-areas:
+    'Goals Goals Team Timeline'
+    'Goals Goals Team Timeline'
+    'Goals Goals Team Timeline'
+    'Goals Goals Team Timeline'
+    'Goals Goals Team Timeline'
+    'Scopes Scopes Primary Timeline'
+    'Scopes Scopes Primary Timeline'
+    'Scopes Scopes Primary Timeline'
+    'Scopes Scopes Primary Timeline';
+     
+    box-shadow: 10px 10px 0px 0px #888888;
+     
+
+
+}
+
+.goa-sco-tea-pri-tim {
+    background-color: aliceblue;
+    text-align: left;
+    padding: 10px;
+    font-size: 12px;
+
+}
+
+.goa-sco-tea-pri-tim h1 {
+    font-size: 20px;
+    font-weight: 700;
+    border-bottom: solid 2px gray;
+    color: #1940db;
+    margin-top: -10px;
+    padding: 10px 0px;
+}
+
+.goals, .scopes, .team, .primary, .timeline {
+    display: flex;
+    padding: 10px 0;
+    
+}
+
+.goals,.primary, .timeline {
+    column-gap: 30px;
+    
+}
+
+.goals {
+    border-bottom: solid 1px gray;
+    padding: 10px 0px
+
+}
+.team {
+    padding: 10px 0px;
+}
+.team-icon {
+    margin-top: -10px;
+}
+.scopes {
+    column-gap: 50px;
+    padding: 10px 0px;
+    
+}
+
+.timeline {
+    border-bottom: dotted 1px gray;
+    padding: 10px 0px;
+}
+
+.primary {
+    margin-top:15px;
+}
+
+.pri-one {
+    padding: 0px 0px;
+}
+
+.pri-two {
+    padding: 20px 0px;
+}
+
+.primary-text {
+    margin-top: -3px;
+ }
+
+.timeline {
+    margin: 10px 0px;
+    padding: 10px 0px;
+}
+
+.icon-flag {
+    width: 60px;
+    height: 40px;
+}
+
+.icon-people {
+    width: 80px;
+    height: 50px;
+}
+
+.in-title, .out-title {
+    margin-top: -15px;
+    font-size: 20px;
+}
+
+.primary-icon {
+    border: solid 2px gray;
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius: 50%;
+    text-align:center;
+    color: white;
+    padding: 0px 5px;
+        
+}
+    
+.timeline-icon {
+    border: solid 2px gray;
+    width: 40px;
+    height: 40px;
+    background-color:#9B30FF;
+    border-radius: 50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius: 50%;
+    font-size: 18px;
+    text-align:center;
+    color: white;
+    padding: 5px 0px;
+}
+    
+
+
+
+/* Hết CSS trang Digital-cv.html */
+/*<!----------------------------------------------------------------!------------>*/

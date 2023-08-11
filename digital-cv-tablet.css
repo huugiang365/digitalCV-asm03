@@ -1,0 +1,21 @@
+@media (max-width: 768px){
+    /*<!------------------------------!------------>*/
+    .digital-cv {
+        display: block;
+    }
+    .goals, .scopes, .team, .primary, .timeline {
+        display:block;
+    }
+
+    .goals-icon, .team-icon{
+        text-align: center;
+    }
+    .primary-icon {
+        margin: 2% 48% 2% 48%;
+    }
+
+    .in, .out {
+        padding: 20px 0px;
+    }
+    /*<!----------------------------------!------------>*/
+}
